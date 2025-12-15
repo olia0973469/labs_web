@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ann Demeulemeester — Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Medula+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <nav class="main-nav left">
+          <button class="burger" aria-label="Open menu" type="button" id="burgerBtn"><span></span></button>
+          <a href="#collections">Collections</a>
+          <a href="#menswear">Menswear</a>
+          <a href="#womanswear">Womanswear</a>
+        </nav>
+        <div class="logo">
+          <img src="../Photos/Ann_Demeulemeester_logo.png" alt="Ann Demeulemeester">
+        </div>
+        <nav class="main-nav right">
+          <a href="#jewelry">Jewelry</a>
+          <a href="#accessories">Accessories</a>
+          <a href="#shoes">Shoes</a>
+          <img src="../Photos/Acc.png" alt="Account" class="account" aria-label="Account">
+        </nav>
+      </div>
+      <nav class="mobile-menu" id="mobileMenu">
+        <a href="#collections">Collections</a>
+        <a href="#menswear">Menswear</a>
+        <a href="#womanswear">Womanswear</a>
+        <a href="#jewelry">Jewelry</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#shoes">Shoes</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-img">
+        <video autoplay muted loop playsinline>
+          <source src="../Photos/video_2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="container hero-caption">
+        <h1 class="h-hero">Autumn/Winter 2025</h1>
+      </div>
+    </section>
+
+    <main class="site-main">
+      <section class="collections" id="collections">
+        <div class="container">
+          <h2 class="h-collections">Collections</h2>
+          <div class="cards three">
+            <article class="card tall">
+              <div class="media">
+                <img src="../Photos/SS25.jpg" alt="S/S 2025" loading="lazy">
+              </div>
+              <div class="caption h-card">S/S 2025</div>
+            </article>
+            <article class="card tall">
+              <div class="media">
+                <img src="../Photos/AW24.png" alt="A/W 2024" loading="lazy">
+              </div>
+              <div class="caption h-card">A/W 2024</div>
+            </article>
+            <article class="card tall">
+              <div class="media">
+                <img src="../Photos/SS24.jpg" alt="S/S 2024" loading="lazy">
+              </div>
+              <div class="caption h-card">S/S 2024</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready" id="womanswear">
+        <div class="container">
+          <div class="split">
+            <a class="split-item" href="#womanswear">
+              <div class="media">
+                <img src="../Photos/Womanswear.png" alt="Womanswear" loading="lazy">
+              </div>
+              <div class="label h-split">Womanswear</div>
+            </a>
+            <a class="split-item" href="#menswear" id="menswear">
+              <div class="media">
+                <img src="../Photos/Manswear.jpg" alt="Menswear" loading="lazy">
+              </div>
+              <div class="label h-split">Menswear</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        <div class="container">
+          <div class="cards three square">
+            <a class="card" href="#jewelry" id="jewelry">
+              <div class="media">
+                <img src="../Photos/Jewelry.jpg" alt="Jewelry" loading="lazy">
+              </div>
+              <div class="caption h-categories">Jewelry</div>
+            </a>
+            <a class="card" href="#accessories" id="accessories">
+              <div class="media">
+                <img src="../Photos/Accessories.jpg" alt="Accessories" loading="lazy">
+              </div>
+              <div class="caption h-categories">Accessories</div>
+            </a>
+            <a class="card" href="#shoes" id="shoes">
+              <div class="media">
+                <img src="../Photos/Shoes.jpg" alt="Shoes" loading="lazy">
+              </div>
+              <div class="caption h-categories">Shoes</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="founder">
+        <div class="container founder-grid">
+          <div class="founder-text">
+            <h2 class="h-founder">The Founder - Ann Demeulemeester</h2>
+            <p>
+              Ann Verhelst was born in Waregem in 1959. The reason why she
+              made the decision to change her real name "Verhelst" to
+              "Demeulemeester" remains unknown. Initially, Verhelst showed no
+              interest in fashion. She attended art school for three years,
+              where she discovered her fascination with people and portraiture,
+              which led her to begin thinking about clothing design.
+            </p>
+            <div class="socials">
+              <a class="btn" href="#">
+                Instagram
+                <img src="../Photos/Inst.png" alt="" class="btn-icon">
+              </a>
+              <a class="btn" href="#">
+                Vogue
+                <img src="../Photos/Vogue-Symbol.png" alt="" class="btn-icon">
+              </a>
+            </div>
+          </div>
+          <div class="founder-photo">
+            <img src="../Photos/AnnD.jpg" alt="Ann Demeulemeester" class="portrait" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <h2 class="h-pricing">Popular Products</h2>
+          <div class="pricing-cards">
+            <div class="pricing-card">
+              <div class="pricing-image">
+                <img src="../Photos/Earrings.jpg" alt="Winona Organic Sphere Earrings" loading="lazy">
+              </div>
+              <div class="pricing-info">
+                <h3 class="pricing-title">Winona Organic Sphere Earrings</h3>
+                <p class="pricing-price">$ 550.00 USD</p>
+                <button class="buy-btn">BUY</button>
+              </div>
+            </div>
+            
+            <div class="pricing-card">
+              <div class="pricing-image">
+                <img src="../Photos/Bag.jpg" alt="Sylvia Large Top Handle Bag" loading="lazy">
+              </div>
+              <div class="pricing-info">
+                <h3 class="pricing-title">Sylvia Large Top Handle Bag</h3>
+                <p class="pricing-price">$ 3,390.00 USD</p>
+                <button class="buy-btn">BUY</button>
+              </div>
+            </div>
+            
+            <div class="pricing-card">
+              <div class="pricing-image">
+                <img src="../Photos/Boots.png" alt="Danny Ankle Boots" loading="lazy">
+              </div>
+              <div class="pricing-info">
+                <h3 class="pricing-title">Danny Ankle Boots</h3>
+                <p class="pricing-price">$ 1,550.00 USD</p>
+                <button class="buy-btn">BUY</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form" id="contact">
+        <div class="container">
+          <h2 class="h-contact">Contact Us</h2>
+          <form class="feedback-form" action="#" method="post">
+            <fieldset class="form-group">
+              <legend>Personal Information</legend>
+              
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your full name">
+              
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+              
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+              
+              <label for="password">Account Password (if applicable)</label>
+              <input type="password" id="password" name="password" placeholder="Enter password">
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>Inquiry Details</legend>
+              
+              <label for="inquiry-type">Type of Inquiry *</label>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="inquiry-type" value="product" required>
+                  <span>Product Information</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="inquiry-type" value="order" required>
+                  <span>Order Status</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="inquiry-type" value="support" required>
+                  <span>Customer Support</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="inquiry-type" value="other" required>
+                  <span>Other</span>
+                </label>
+              </div>
+              
+              <label for="preferred-date">Preferred Contact Date</label>
+              <input type="date" id="preferred-date" name="preferred-date">
+              
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Please describe your inquiry in detail..."></textarea>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>Additional Options</legend>
+              
+              <label class="checkbox-label">
+                <input type="checkbox" name="newsletter" value="yes">
+                <span>Subscribe to our newsletter</span>
+              </label>
+              
+              <label class="checkbox-label">
+                <input type="checkbox" name="terms" value="accepted" required>
+                <span>I agree to the Terms and Conditions *</span>
+              </label>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <div class="brand">Ann Demeulemeester</div>
+          <div class="emails">
+            <a href="mailto:customer-care@anndemeulemeester.com">customer-care@anndemeulemeester.com</a>
+            <a href="mailto:customer-press@anndemeulemeester.com">customer-press@anndemeulemeester.com</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="col">
+            <a href="#">Contact us</a>
+            <a href="#">Return request</a>
+            <a href="#">Shopping online</a>
+          </div>
+          <div class="col">
+            <a href="#">Post-Sale assistance</a>
+            <a href="#">Return policy</a>
+            <a href="#">Shipping information</a>
+          </div>
+          <div class="col">
+            <a href="#">Commercial policy</a>
+            <a href="#">Legal notice</a>
+            <a href="#">Accessibility</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const burgerBtn = document.getElementById('burgerBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      
+      burgerBtn.addEventListener('click', function() {
+        burgerBtn.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+      });
+      
+      const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          burgerBtn.classList.remove('active');
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+      
+      mobileMenu.addEventListener('click', function(e) {
+        if (e.target === mobileMenu) {
+          burgerBtn.classList.remove('active');
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      });
+    </script>
+  </body>
+  </html>
+
